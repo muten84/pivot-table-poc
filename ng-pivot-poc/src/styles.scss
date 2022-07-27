@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'webdatarocks/webdatarocks.min.css';
+
+.editable {
+    padding: 0 !important;
+    z-index: 1 !important;
+  }
+
+  .editable input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 0px solid;
+    padding-left: 4px !important;
+
+  }

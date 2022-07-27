@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>NgPivotPoc</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link
+  href="https://cdn.webdatarocks.com/latest/webdatarocks.min.css"
+  rel="stylesheet"
+/>
+<script src="https://cdn.webdatarocks.com/latest/webdatarocks.toolbar.min.js"></script>
+<script src="https://cdn.webdatarocks.com/latest/webdatarocks.js"></script>
+<script src="https://cdn.webdatarocks.com/latest/webdatarocks.highcharts.js"></script>
+  <script type="text/javascript">
+    function callAngularFunction(event) {
+        window.angularComponentReference.zone.run(() => { window.angularComponentReference.loadAngularFunction(event); });
+    }
+</script>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
